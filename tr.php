@@ -1,6 +1,6 @@
 <?php
 /*
- * SBI証券 出来高ランキング 買い・売り 抽出
+ * 
  *
  * @param: string argv[1] 入力 htmlファイルパス
  * @param: string argv[2] 出力 買いcsvファイルパス
@@ -10,8 +10,6 @@
  *
  * $ php TRADERANKING.php /dat/trade_ranking_20231201.html /csv/buy_20231201.csv /csv/sell_20231201.csv
  */
-// ToDo  HTMLURL違う？よく確認. データチェック
-// ToDo  シェルにphp組み込み。引数渡すようにする
 try {
         $binFile = __FILE__;
         $binDir = dirname($binFile);
